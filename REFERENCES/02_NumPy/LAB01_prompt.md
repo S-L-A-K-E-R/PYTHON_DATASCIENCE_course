@@ -29,6 +29,17 @@ You can include captures (to set a goal? Like "Let's try get this visuals now!),
 
 Feel free to ask me anything if you need to.
 
+I've given you the lab we have for C. Maybe they can be a but more clear, but perhaps it can be interesting to have small lab with independant exercises, on a notebook.
+
+Like: 
+``` text
+You have [x] dataset provided in [data_folder]. Your goal is to create the following visual: [graph].
+
+Using histogram graph, display the different values of column [column].
+```
+
+Then we could move to other exercises, okay?
+
 My goal is to try doing your lab, and give you feedback on what I've thought about it when checking it.
 
 Thanks a lot!
