@@ -1,27 +1,33 @@
 # Matplotlib (Advanced Python)
 
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/S-L-A-K-E-R/PYTHON_DATASCIENCE_course/blob/master/LAB/01_MatPlotLib/01_Visual_Foundations.ipynb)
 
-## Quick start
+Complete four visual challenges: time-series plots, scatter plots, distributions, and a 2×2 dashboard.
 
-1. Unzip the **entire folder**. Open a terminal **inside** `01_MatPlotLib/`.
-2. Use a Python 3.10+ environment, install dependencies: `python -m pip install -r requirements.txt`.
-3. Launch: `jupyter notebook` (or open the folder in VS Code / JupyterLab).
-4. Open the session notebook, run the provided data-setup cell, then complete its empty challenge cells.
-5. Save both executed notebooks. Do not rename or relocate `data/` and `figures/` relative to them.
+## Open in Google Colab
 
+Click **Open in Colab** above, then run the **Data prepared for you** cell. The notebook automatically downloads its three CSV datasets when launched in Colab. Reference images are displayed directly from GitHub.
 
-FOR <ins>**GOOGLE COLAB**</ins>: 
-> In hosted notebooks such as Google Colab, upload the **entire** folder (including the `data/` and `figures/` assets) and ensure the notebook working directory is that folder. An isolated `.ipynb` upload will not contain the datasets or goal images.
+Your plotting exercises remain empty: recreate each target yourself, then save a copy of your completed notebook to Google Drive.
+
+## Run locally
+
+1. Download or clone the repository, keeping the `01_MatPlotLib/` folder intact.
+2. Open a terminal inside `LAB/01_MatPlotLib/`.
+3. With Python 3.10+, run `python -m pip install -r requirements.txt`.
+4. Launch `jupyter notebook` or open `01_Visual_Foundations.ipynb` in VS Code / JupyterLab.
+5. Run the data setup cell, complete all four exercises, and save your notebook with its figures visible.
 
 ## Files
 
-- `data/`: 5 small deterministic **synthetic** datasets; no online downloads and no Pandas/scikit-learn needed.
-- `figures/`: one visual target for each challenge.
-- `PREVIEW.png`: a contact sheet showing all eight targets.
-- `TEACHER_NOTES.md`: suggested facilitation, mapping, and evaluation; **do not distribute** if you prefer a student-only handout.
+- `01_Visual_Foundations.ipynb`: four student challenges.
+- `data/`: supplied synthetic datasets, including the three CSV files used in this session.
+- `figures/`: reference visuals for each challenge.
+- `PREVIEW.png`: overview of the visual targets.
+- `requirements.txt`: Python packages for running the lab locally.
 
-## Reading & Inspirations
+## Reading & inspiration
 
-- [Jake VanderPlas, Python Data Science Handbook — Matplotlib chapter](https://jakevdp.github.io/PythonDataScienceHandbook/04.00-introduction-to-matplotlib.html)
+- [Python Data Science Handbook — Matplotlib chapter](https://jakevdp.github.io/PythonDataScienceHandbook/04.00-introduction-to-matplotlib.html)
 - [Matplotlib official documentation](https://matplotlib.org/stable/)
-- [Matplotlib official gallery](https://matplotlib.org/stable/gallery/index.html)
+- [Matplotlib examples gallery](https://matplotlib.org/stable/gallery/index.html)
