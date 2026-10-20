@@ -7,6 +7,21 @@ This repository contains the entire [Python Data Science Handbook](http://shop.o
 
 ![cover image](notebooks/figures/PDSH-cover.png)
 
+## Advanced Python - Student labs
+
+The adapted practical exercises are in [LAB/](LAB/). Students work from visual targets and build the Matplotlib plots themselves.
+
+### Matplotlib - 2 labs
+
+Both notebooks and their shared datasets are available in [LAB/01_MatPlotLib/](LAB/01_MatPlotLib/).
+
+| Lab | Topics | Google Colab |
+| --- | --- | --- |
+| [Lab 1 - Visual foundations](LAB/01_MatPlotLib/01_Visual_Foundations.ipynb) | Lines, scatter, histograms, multi-panel dashboards | [Open Lab 1](https://colab.research.google.com/github/S-L-A-K-E-R/PYTHON_DATASCIENCE_course/blob/master/LAB/01_MatPlotLib/01_Visual_Foundations.ipynb) |
+| [Lab 2 - Scientific visualizations](LAB/01_MatPlotLib/02_Scientific_Visualizations.ipynb) | Error bars, heatmaps, contours, 3D surfaces | [Open Lab 2](https://colab.research.google.com/github/S-L-A-K-E-R/PYTHON_DATASCIENCE_course/blob/master/LAB/01_MatPlotLib/02_Scientific_Visualizations.ipynb) |
+
+See the [Matplotlib lab README](LAB/01_MatPlotLib/README.md) for setup and data details.
+
 ## How to Use this Book
 
 - Read the book in its entirety online at https://jakevdp.github.io/PythonDataScienceHandbook/
