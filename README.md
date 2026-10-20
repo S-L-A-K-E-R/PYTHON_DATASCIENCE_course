@@ -1,73 +1,23 @@
-# Python Data Science Handbook
+# Advanced Python - Applied Labs
 
-[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/jakevdp/PythonDataScienceHandbook/master?filepath=notebooks%2FIndex.ipynb)
-[![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jakevdp/PythonDataScienceHandbook/blob/master/notebooks/Index.ipynb)
+Hands-on Jupyter Notebook labs to explore Python libraries for data science, inspired by Jake VanderPlas' [Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/).
 
-This repository contains the entire [Python Data Science Handbook](http://shop.oreilly.com/product/0636920034919.do), in the form of (free!) Jupyter notebooks.
+The approach is simple: **experiment with small examples, research the tools, and apply what you discover to larger datasets**. Students recreate visual targets and solve challenges instead of just running pre-written code.
 
-![cover image](notebooks/figures/PDSH-cover.png)
+## Labs
 
-## Advanced Python - Student labs
-
-The adapted practical exercises are in [LAB/](LAB/). Students work from visual targets and build the Matplotlib plots themselves.
-
-### Matplotlib - 2 labs
-
-Both notebooks and their shared datasets are available in [LAB/01_MatPlotLib/](LAB/01_MatPlotLib/).
-
-| Lab | Topics | Google Colab |
+| Topic | Notebook | Run online |
 | --- | --- | --- |
-| [Lab 1 - Visual foundations](LAB/01_MatPlotLib/01_Visual_Foundations.ipynb) | Lines, scatter, histograms, multi-panel dashboards | [Open Lab 1](https://colab.research.google.com/github/S-L-A-K-E-R/PYTHON_DATASCIENCE_course/blob/master/LAB/01_MatPlotLib/01_Visual_Foundations.ipynb) |
-| [Lab 2 - Scientific visualizations](LAB/01_MatPlotLib/02_Scientific_Visualizations.ipynb) | Error bars, heatmaps, contours, 3D surfaces | [Open Lab 2](https://colab.research.google.com/github/S-L-A-K-E-R/PYTHON_DATASCIENCE_course/blob/master/LAB/01_MatPlotLib/02_Scientific_Visualizations.ipynb) |
+| Matplotlib - Visual foundations | [Lab 1](LAB/01_MatPlotLib/01_Visual_Foundations.ipynb) | [Open in Colab](https://colab.research.google.com/github/S-L-A-K-E-R/PYTHON_DATASCIENCE_course/blob/master/LAB/01_MatPlotLib/01_Visual_Foundations.ipynb) |
+| Matplotlib - Scientific visualizations | [Lab 2](LAB/01_MatPlotLib/02_Scientific_Visualizations.ipynb) | [Open in Colab](https://colab.research.google.com/github/S-L-A-K-E-R/PYTHON_DATASCIENCE_course/blob/master/LAB/01_MatPlotLib/02_Scientific_Visualizations.ipynb) |
 
-See the [Matplotlib lab README](LAB/01_MatPlotLib/README.md) for setup and data details.
+See the [Matplotlib lab instructions](LAB/01_MatPlotLib/README.md) for datasets, requirements, and local setup.
 
-## How to Use this Book
+## Repository structure
 
-- Read the book in its entirety online at https://jakevdp.github.io/PythonDataScienceHandbook/
+- [`LAB/`](LAB/) - Applied exercises and Jupyter notebooks.
+- [`REFERENCES/`](REFERENCES/) - Selected handbook chapters used as learning references.
 
-- Run the code using the Jupyter notebooks available in this repository's [notebooks](notebooks) directory.
+## Credits
 
-- Launch executable versions of these notebooks using [Google Colab](http://colab.research.google.com): [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jakevdp/PythonDataScienceHandbook/blob/master/notebooks/Index.ipynb)
-
-- Launch a live notebook server with these notebooks using [binder](https://beta.mybinder.org/): [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/jakevdp/PythonDataScienceHandbook/master?filepath=notebooks%2FIndex.ipynb)
-
-- Buy the printed book through [O'Reilly Media](http://shop.oreilly.com/product/0636920034919.do)
-
-## About
-
-The book was written and tested with Python 3.5, though other Python versions (including Python 2.7) should work in nearly all cases.
-
-The book introduces the core libraries essential for working with data in Python: particularly [IPython](http://ipython.org), [NumPy](http://numpy.org), [Pandas](http://pandas.pydata.org), [Matplotlib](http://matplotlib.org), [Scikit-Learn](http://scikit-learn.org), and related packages.
-Familiarity with Python as a language is assumed; if you need a quick introduction to the language itself, see the free companion project,
-[A Whirlwind Tour of Python](https://github.com/jakevdp/WhirlwindTourOfPython): it's a fast-paced introduction to the Python language aimed at researchers and scientists.
-
-See [Index.ipynb](http://nbviewer.jupyter.org/github/jakevdp/PythonDataScienceHandbook/blob/master/notebooks/Index.ipynb) for an index of the notebooks available to accompany the text.
-
-## Software
-
-The code in the book was tested with Python 3.5, though most (but not all) will also work correctly with Python 2.7 and other older Python versions.
-
-The packages I used to run the code in the book are listed in [requirements.txt](requirements.txt) (Note that some of these exact version numbers may not be available on your platform: you may have to tweak them for your own use).
-To install the requirements using [conda](http://conda.pydata.org), run the following at the command-line:
-
-```
-$ conda install --file requirements.txt
-```
-
-To create a stand-alone environment named ``PDSH`` with Python 3.5 and all the required package versions, run the following:
-
-```
-$ conda create -n PDSH python=3.5 --file requirements.txt
-```
-
-You can read more about using conda environments in the [Managing Environments](http://conda.pydata.org/docs/using/envs.html) section of the conda documentation.
-
-
-## License
-
-### Code
-The code in this repository, including all code samples in the notebooks listed above, is released under the [MIT license](LICENSE-CODE). Read more at the [Open Source Initiative](https://opensource.org/licenses/MIT).
-
-### Text
-The text content of the book is released under the [CC-BY-NC-ND license](LICENSE-TEXT). Read more at [Creative Commons](https://creativecommons.org/licenses/by-nc-nd/3.0/us/legalcode).
+These labs are adapted for teaching and inspired by the [Python Data Science Handbook](https://github.com/jakevdp/PythonDataScienceHandbook) by **Jake VanderPlas**. The original handbook code and text have their respective licenses: [MIT](LICENSE-CODE) and [CC BY-NC-ND](LICENSE-TEXT).
