@@ -3,7 +3,7 @@
 **Goal:** connect NumPy to the matrices students already use in mathematics, through small, achievable exercises.
 
 | Step | Notebook | Open in Colab |
-| --- | --- | --- | --- |
+| --- | --- | --- |
 | Guided introduction | [00 — NumPy quickstart](00_NumPy_Quickstart.ipynb) | [Open in Colab](https://colab.research.google.com/github/S-L-A-K-E-R/PYTHON_DATASCIENCE_course/blob/master/LAB/02_NumPy/00_NumPy_Quickstart.ipynb) |
 | Lab 1 | [01 — Arrays and measurements](01_Arrays_and_Measurements.ipynb) | [Open in Colab](https://colab.research.google.com/github/S-L-A-K-E-R/PYTHON_DATASCIENCE_course/blob/master/LAB/02_NumPy/01_Arrays_and_Measurements.ipynb) |
 | Lab 2 | [02 — Matrix applications](02_Matrix_Applications.ipynb) | [Open in Colab](https://colab.research.google.com/github/S-L-A-K-E-R/PYTHON_DATASCIENCE_course/blob/master/LAB/02_NumPy/02_Matrix_Applications.ipynb) |
