@@ -1,12 +1,12 @@
 # NumPy — short, progressive Colab notebooks
 
-**Goal:** connect NumPy to the matrices students already use in mathematics, without turning a 2-hour session into a long problem set.
+**Goal:** connect NumPy to the matrices students already use in mathematics, through small, achievable exercises.
 
-| Step | Notebook | Suggested time | Open in Colab |
+| Step | Notebook | Open in Colab |
 | --- | --- | --- | --- |
-| Guided introduction | [00 — NumPy quickstart](00_NumPy_Quickstart.ipynb) | 10–15 min | [Open in Colab](https://colab.research.google.com/github/S-L-A-K-E-R/PYTHON_DATASCIENCE_course/blob/master/LAB/02_NumPy/00_NumPy_Quickstart.ipynb) |
-| Lab 1 | [01 — Arrays and measurements](01_Arrays_and_Measurements.ipynb) | 25–35 min | [Open in Colab](https://colab.research.google.com/github/S-L-A-K-E-R/PYTHON_DATASCIENCE_course/blob/master/LAB/02_NumPy/01_Arrays_and_Measurements.ipynb) |
-| Lab 2 | [02 — Matrix applications](02_Matrix_Applications.ipynb) | 30–40 min | [Open in Colab](https://colab.research.google.com/github/S-L-A-K-E-R/PYTHON_DATASCIENCE_course/blob/master/LAB/02_NumPy/02_Matrix_Applications.ipynb) |
+| Guided introduction | [00 — NumPy quickstart](00_NumPy_Quickstart.ipynb) | [Open in Colab](https://colab.research.google.com/github/S-L-A-K-E-R/PYTHON_DATASCIENCE_course/blob/master/LAB/02_NumPy/00_NumPy_Quickstart.ipynb) |
+| Lab 1 | [01 — Arrays and measurements](01_Arrays_and_Measurements.ipynb) | [Open in Colab](https://colab.research.google.com/github/S-L-A-K-E-R/PYTHON_DATASCIENCE_course/blob/master/LAB/02_NumPy/01_Arrays_and_Measurements.ipynb) |
+| Lab 2 | [02 — Matrix applications](02_Matrix_Applications.ipynb) | [Open in Colab](https://colab.research.google.com/github/S-L-A-K-E-R/PYTHON_DATASCIENCE_course/blob/master/LAB/02_NumPy/02_Matrix_Applications.ipynb) |
 
 ## Approach
 
@@ -15,7 +15,7 @@
 3. **Write a small amount of code:** no external datasets, complex helper functions, or lengthy setup.
 4. **Compare, explain, and save:** readable cells and a short reflection matter more than number of lines.
 
-Labs are sequential but self-contained. Run their setup cells and work at your own pace. The optional visual tasks reuse the previous Matplotlib module and may be skipped if time is short.
+Labs are sequential but self-contained. Run their setup cells and work at your own pace. The optional visual tasks reuse the previous Matplotlib module and can be completed separately.
 
 ## Colab and local Python
 
