@@ -6,15 +6,12 @@ The approach is simple: **see a clear target, experiment with small examples, an
 
 ## Labs
 
-| Topic | Notebook | Run online |
+| Module | Notebooks | Open in Colab |
 | --- | --- | --- |
-| Matplotlib - Visual foundations | [Lab 1](LAB/01_MatPlotLib/01_Visual_Foundations.ipynb) | [Open in Colab](https://colab.research.google.com/github/S-L-A-K-E-R/PYTHON_DATASCIENCE_course/blob/master/LAB/01_MatPlotLib/01_Visual_Foundations.ipynb) |
-| Matplotlib - Scientific visualizations | [Lab 2](LAB/01_MatPlotLib/02_Scientific_Visualizations.ipynb) | [Open in Colab](https://colab.research.google.com/github/S-L-A-K-E-R/PYTHON_DATASCIENCE_course/blob/master/LAB/01_MatPlotLib/02_Scientific_Visualizations.ipynb) |
-| NumPy - Interactive quickstart | [Introduction](LAB/02_NumPy/00_NumPy_Quickstart.ipynb) | [Open in Colab](https://colab.research.google.com/github/S-L-A-K-E-R/PYTHON_DATASCIENCE_course/blob/master/LAB/02_NumPy/00_NumPy_Quickstart.ipynb) |
-| NumPy - Arrays and measurements | [Lab 1](LAB/02_NumPy/01_Arrays_and_Measurements.ipynb) | [Open in Colab](https://colab.research.google.com/github/S-L-A-K-E-R/PYTHON_DATASCIENCE_course/blob/master/LAB/02_NumPy/01_Arrays_and_Measurements.ipynb) |
-| NumPy - Matrix applications | [Lab 2](LAB/02_NumPy/02_Matrix_Applications.ipynb) | [Open in Colab](https://colab.research.google.com/github/S-L-A-K-E-R/PYTHON_DATASCIENCE_course/blob/master/LAB/02_NumPy/02_Matrix_Applications.ipynb) |
+| **Matplotlib** | [Lab 1](LAB/01_MatPlotLib/01_Visual_Foundations.ipynb) · [Lab 2](LAB/01_MatPlotLib/02_Scientific_Visualizations.ipynb) | [Lab 1](https://colab.research.google.com/github/S-L-A-K-E-R/PYTHON_DATASCIENCE_course/blob/master/LAB/01_MatPlotLib/01_Visual_Foundations.ipynb) · [Lab 2](https://colab.research.google.com/github/S-L-A-K-E-R/PYTHON_DATASCIENCE_course/blob/master/LAB/01_MatPlotLib/02_Scientific_Visualizations.ipynb) |
+| **NumPy** | [Intro.](LAB/02_NumPy/00_NumPy_Quickstart.ipynb) · [Lab 1](LAB/02_NumPy/01_Arrays_and_Measurements.ipynb) · [Lab 2](LAB/02_NumPy/02_Matrix_Applications.ipynb) | [Intro.](https://colab.research.google.com/github/S-L-A-K-E-R/PYTHON_DATASCIENCE_course/blob/master/LAB/02_NumPy/00_NumPy_Quickstart.ipynb) · [Lab 1](https://colab.research.google.com/github/S-L-A-K-E-R/PYTHON_DATASCIENCE_course/blob/master/LAB/02_NumPy/01_Arrays_and_Measurements.ipynb) · [Lab 2](https://colab.research.google.com/github/S-L-A-K-E-R/PYTHON_DATASCIENCE_course/blob/master/LAB/02_NumPy/02_Matrix_Applications.ipynb) |
 
-See the [Matplotlib instructions](LAB/01_MatPlotLib/README.md) for its datasets and the [NumPy instructions](LAB/02_NumPy/README.md) for the short Colab learning path.
+Detailed instructions: [Matplotlib](LAB/01_MatPlotLib/README.md) · [NumPy](LAB/02_NumPy/README.md)
 
 ## Repository structure
 
