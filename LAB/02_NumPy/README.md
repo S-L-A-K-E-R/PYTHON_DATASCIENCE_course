@@ -7,6 +7,7 @@
 | Guided introduction | [00 — NumPy quickstart](00_NumPy_Quickstart.ipynb) | [Open in Colab](https://colab.research.google.com/github/S-L-A-K-E-R/PYTHON_DATASCIENCE_course/blob/master/LAB/02_NumPy/00_NumPy_Quickstart.ipynb) |
 | Lab 1 | [01 — Arrays and measurements](01_Arrays_and_Measurements.ipynb) | [Open in Colab](https://colab.research.google.com/github/S-L-A-K-E-R/PYTHON_DATASCIENCE_course/blob/master/LAB/02_NumPy/01_Arrays_and_Measurements.ipynb) |
 | Lab 2 | [02 — Matrix applications](02_Matrix_Applications.ipynb) | [Open in Colab](https://colab.research.google.com/github/S-L-A-K-E-R/PYTHON_DATASCIENCE_course/blob/master/LAB/02_NumPy/02_Matrix_Applications.ipynb) |
+| Lab 3 | [03 — 20 progressive exercises (★ to ★★)](03_NumPy_20_Exercises.ipynb) | [Open in Colab](https://colab.research.google.com/github/S-L-A-K-E-R/PYTHON_DATASCIENCE_course/blob/master/LAB/02_NumPy/03_NumPy_20_Exercises.ipynb) |
 
 ## Approach
 
@@ -32,4 +33,4 @@ Labs are sequential but self-contained. Run their setup cells and work at your o
 - [NumPy: matrix multiplication / `@`](https://numpy.org/doc/stable/reference/generated/numpy.matmul.html)
 - [Python Data Science Handbook reference notebooks](../../REFERENCES/02_NumPy/)
 
-The new notebooks are original teaching exercises, inspired by the accompanying handbook references.
+The quickstart and first two labs are original teaching exercises, inspired by the accompanying handbook references. **Lab 3** adapts 20 exercises from [Nicolas P. Rougier's numpy-100](https://github.com/rougier/numpy-100), with new settings, explicit targets and hints. The original collection is under the [MIT license](../../LICENSE-NUMPY-100).
