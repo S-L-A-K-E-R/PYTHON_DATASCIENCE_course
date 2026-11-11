@@ -17,11 +17,11 @@
 3. **Write a small amount of code:** no external datasets, complex helper functions, or lengthy setup.
 4. **Compare, explain, and save:** readable cells and a short reflection matter more than number of lines.
 
-Labs are sequential but self-contained. **Lab 4** uses NumPy, Pillow, and Matplotlib to examine a bundled RGB photograph, calculate average colors, and create effects; no external image files are required. Run each notebook's setup cells and work at your own pace. The optional visual tasks reuse the previous Matplotlib module and can be completed separately.
+Labs are sequential but self-contained. **Lab 4** uses NumPy, Pillow, and Matplotlib to examine the classic 512×512 Lenna RGB test photograph, calculate average colors, and create effects; its setup cell automatically downloads the picture from a public GitHub repository. Run each notebook's setup cells and work at your own pace. The optional visual tasks reuse the previous Matplotlib module and can be completed separately.
 
 ## Colab and local Python
 
-**Google Colab:** click a link above, create a copy for editing, and run the cells top to bottom. Standard Colab includes NumPy, Pillow, and Matplotlib; there are no files to download.
+**Google Colab:** click a link above, create a copy for editing, and run the cells top to bottom. Standard Colab includes NumPy, Pillow, and Matplotlib. Lab 4 fetches Lenna automatically; an internet connection is required for the first setup run.
 
 **Local Jupyter / VS Code:** use a recent Python 3 version and install `numpy`, `matplotlib`, and `pillow`. Example: `python -m pip install numpy matplotlib pillow`.
 
@@ -36,4 +36,4 @@ Labs are sequential but self-contained. **Lab 4** uses NumPy, Pillow, and Matplo
 - [Pillow: image modes](https://pillow.readthedocs.io/en/stable/handbook/concepts.html#modes)
 - [Python Data Science Handbook reference notebooks](../../REFERENCES/02_NumPy/)
 
-The quickstart, first two labs, and Lab 4 are original teaching exercises, inspired by the accompanying handbook references. **Lab 3** adapts 20 exercises from [Nicolas P. Rougier's numpy-100](https://github.com/rougier/numpy-100), with new settings, explicit targets and hints. The original collection is under the [MIT license](../../LICENSE-NUMPY-100).
+The quickstart, first two labs, and Lab 4 are original teaching exercises, inspired by the accompanying handbook references. Lab 4 uses the classic [Lenna test image](https://en.wikipedia.org/wiki/Lenna) from the [lena image repository](https://github.com/mikolalysenko/lena). **Lab 3** adapts 20 exercises from [Nicolas P. Rougier's numpy-100](https://github.com/rougier/numpy-100), with new settings, explicit targets and hints. The original collection is under the [MIT license](../../LICENSE-NUMPY-100).
