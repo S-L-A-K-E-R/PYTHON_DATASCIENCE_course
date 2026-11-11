@@ -8,6 +8,7 @@
 | Lab 1 | [01 — Arrays and measurements](01_Arrays_and_Measurements.ipynb) | [Open in Colab](https://colab.research.google.com/github/S-L-A-K-E-R/PYTHON_DATASCIENCE_course/blob/master/LAB/02_NumPy/01_Arrays_and_Measurements.ipynb) |
 | Lab 2 | [02 — Matrix applications](02_Matrix_Applications.ipynb) | [Open in Colab](https://colab.research.google.com/github/S-L-A-K-E-R/PYTHON_DATASCIENCE_course/blob/master/LAB/02_NumPy/02_Matrix_Applications.ipynb) |
 | Lab 3 | [03 — 20 progressive exercises (★ to ★★)](03_NumPy_20_Exercises.ipynb) | [Open in Colab](https://colab.research.google.com/github/S-L-A-K-E-R/PYTHON_DATASCIENCE_course/blob/master/LAB/02_NumPy/03_NumPy_20_Exercises.ipynb) |
+| Lab 4 | [04 — RGB image analysis and effects](04_RGB_Image_Analysis.ipynb) | [Open in Colab](https://colab.research.google.com/github/S-L-A-K-E-R/PYTHON_DATASCIENCE_course/blob/master/LAB/02_NumPy/04_RGB_Image_Analysis.ipynb) |
 
 ## Approach
 
@@ -16,13 +17,13 @@
 3. **Write a small amount of code:** no external datasets, complex helper functions, or lengthy setup.
 4. **Compare, explain, and save:** readable cells and a short reflection matter more than number of lines.
 
-Labs are sequential but self-contained. Run their setup cells and work at your own pace. The optional visual tasks reuse the previous Matplotlib module and can be completed separately.
+Labs are sequential but self-contained. **Lab 4** uses NumPy, Pillow, and Matplotlib to examine a bundled RGB photograph, calculate average colors, and create effects; no external image files are required. Run each notebook's setup cells and work at your own pace. The optional visual tasks reuse the previous Matplotlib module and can be completed separately.
 
 ## Colab and local Python
 
-**Google Colab:** click a link above, create a copy for editing, and run the cells top to bottom. Standard Colab includes NumPy and Matplotlib; there are no files to download.
+**Google Colab:** click a link above, create a copy for editing, and run the cells top to bottom. Standard Colab includes NumPy, Pillow, and Matplotlib; there are no files to download.
 
-**Local Jupyter / VS Code:** use a recent Python 3 version and install `numpy` (and `matplotlib` for the optional plots). Example: `python -m pip install numpy matplotlib`.
+**Local Jupyter / VS Code:** use a recent Python 3 version and install `numpy`, `matplotlib`, and `pillow`. Example: `python -m pip install numpy matplotlib pillow`.
 
 > The repository root `requirements.txt` is from the original handbook and pins old historical package versions; it is **not** needed for these new labs.
 
@@ -31,6 +32,8 @@ Labs are sequential but self-contained. Run their setup cells and work at your o
 - [NumPy: the absolute basics for beginners](https://numpy.org/doc/stable/user/absolute_beginners.html)
 - [NumPy: indexing](https://numpy.org/doc/stable/user/basics.indexing.html)
 - [NumPy: matrix multiplication / `@`](https://numpy.org/doc/stable/reference/generated/numpy.matmul.html)
+- [Matplotlib: imshow](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.imshow.html)
+- [Pillow: image modes](https://pillow.readthedocs.io/en/stable/handbook/concepts.html#modes)
 - [Python Data Science Handbook reference notebooks](../../REFERENCES/02_NumPy/)
 
-The quickstart and first two labs are original teaching exercises, inspired by the accompanying handbook references. **Lab 3** adapts 20 exercises from [Nicolas P. Rougier's numpy-100](https://github.com/rougier/numpy-100), with new settings, explicit targets and hints. The original collection is under the [MIT license](../../LICENSE-NUMPY-100).
+The quickstart, first two labs, and Lab 4 are original teaching exercises, inspired by the accompanying handbook references. **Lab 3** adapts 20 exercises from [Nicolas P. Rougier's numpy-100](https://github.com/rougier/numpy-100), with new settings, explicit targets and hints. The original collection is under the [MIT license](../../LICENSE-NUMPY-100).
