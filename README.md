@@ -2,16 +2,16 @@
 
 Hands-on Jupyter Notebook labs to explore Python libraries for data science, inspired by Jake VanderPlas' [Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/).
 
-The approach is simple: **experiment with small examples, research the tools, and apply what you discover to larger datasets**. Students recreate visual targets and solve challenges instead of just running pre-written code.
+The approach is simple: **see a clear target, experiment with small examples, and build the result yourself**. Short official references and guided starts are provided, without solving the challenge for you.
 
 ## Labs
 
-| Topic | Notebook | Run online |
+| Module | Notebooks | Open in Colab |
 | --- | --- | --- |
-| Matplotlib - Visual foundations | [Lab 1](LAB/01_MatPlotLib/01_Visual_Foundations.ipynb) | [Open in Colab](https://colab.research.google.com/github/S-L-A-K-E-R/PYTHON_DATASCIENCE_course/blob/master/LAB/01_MatPlotLib/01_Visual_Foundations.ipynb) |
-| Matplotlib - Scientific visualizations | [Lab 2](LAB/01_MatPlotLib/02_Scientific_Visualizations.ipynb) | [Open in Colab](https://colab.research.google.com/github/S-L-A-K-E-R/PYTHON_DATASCIENCE_course/blob/master/LAB/01_MatPlotLib/02_Scientific_Visualizations.ipynb) |
+| **Matplotlib** | [Lab 1](LAB/01_MatPlotLib/01_Visual_Foundations.ipynb) · [Lab 2](LAB/01_MatPlotLib/02_Scientific_Visualizations.ipynb) | [Lab 1](https://colab.research.google.com/github/S-L-A-K-E-R/PYTHON_DATASCIENCE_course/blob/master/LAB/01_MatPlotLib/01_Visual_Foundations.ipynb) · [Lab 2](https://colab.research.google.com/github/S-L-A-K-E-R/PYTHON_DATASCIENCE_course/blob/master/LAB/01_MatPlotLib/02_Scientific_Visualizations.ipynb) |
+| **NumPy** | [Intro.](LAB/02_NumPy/00_NumPy_Quickstart.ipynb) · [Lab 1](LAB/02_NumPy/01_Arrays_and_Measurements.ipynb)  · [Lab 2](LAB/02_NumPy/02_Matrix_Applications.ipynb) · [Lab 3](LAB/02_NumPy/03_NumPy_20_Exercises.ipynb) · [Lab 4 — Images](LAB/02_NumPy/04_RGB_Image_Analysis.ipynb) | [Intro.](https://colab.research.google.com/github/S-L-A-K-E-R/PYTHON_DATASCIENCE_course/blob/master/LAB/02_NumPy/00_NumPy_Quickstart.ipynb) · [Lab 1](https://colab.research.google.com/github/S-L-A-K-E-R/PYTHON_DATASCIENCE_course/blob/master/LAB/02_NumPy/01_Arrays_and_Measurements.ipynb) · [Lab 2](https://colab.research.google.com/github/S-L-A-K-E-R/PYTHON_DATASCIENCE_course/blob/master/LAB/02_NumPy/02_Matrix_Applications.ipynb) · [Lab 3](https://colab.research.google.com/github/S-L-A-K-E-R/PYTHON_DATASCIENCE_course/blob/master/LAB/02_NumPy/03_NumPy_20_Exercises.ipynb) · [Lab 4](https://colab.research.google.com/github/S-L-A-K-E-R/PYTHON_DATASCIENCE_course/blob/master/LAB/02_NumPy/04_RGB_Image_Analysis.ipynb) |
 
-See the [Matplotlib lab instructions](LAB/01_MatPlotLib/README.md) for datasets, requirements, and local setup.
+Detailed instructions: [Matplotlib](LAB/01_MatPlotLib/README.md) · [NumPy](LAB/02_NumPy/README.md)
 
 ## Repository structure
 
@@ -20,4 +20,4 @@ See the [Matplotlib lab instructions](LAB/01_MatPlotLib/README.md) for datasets,
 
 ## Credits
 
-These labs are adapted for teaching and inspired by the [Python Data Science Handbook](https://github.com/jakevdp/PythonDataScienceHandbook) by **Jake VanderPlas**. The original handbook code and text have their respective licenses: [MIT](LICENSE-CODE) and [CC BY-NC-ND](LICENSE-TEXT).
+These labs are adapted for teaching and inspired by the [Python Data Science Handbook](https://github.com/jakevdp/PythonDataScienceHandbook) by **Jake VanderPlas**. The original handbook code and text have their respective licenses: [MIT](LICENSE-CODE) and [CC BY-NC-ND](LICENSE-TEXT). The NumPy quickstart and first two labs are original teaching material. NumPy Lab 3 adapts exercises from [Nicolas P. Rougier’s numpy-100](https://github.com/rougier/numpy-100), under the [MIT license](LICENSE-NUMPY-100). **Lab 4** is original teaching material using the [Lenna test image](https://en.wikipedia.org/wiki/Lenna), automatically fetched from the [lena image repository](https://github.com/mikolalysenko/lena).
